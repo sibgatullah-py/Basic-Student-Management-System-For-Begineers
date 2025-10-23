@@ -12,12 +12,12 @@ Features:
   7. Beginner-friendly code with OOP structure
 
 Project Structure
-  Basic-Student-Management-System
+  '''Basic-Student-Management-System
   │
   ├── database_setup.py      # Creates the SQLite database and table
   ├── student_manager.py     # StudentManager class with all CRUD methods
   ├── main.py                # CLI menu to interact with the user
-  └── README.md              # Project description
+  └── README.md              # Project description'''
 
 How It Works
   1. Database Setup (database_setup.py)
