@@ -11,38 +11,31 @@ Features:
   6. Fully CLI-based (runs in terminal/command prompt)
   7. Beginner-friendly code with OOP structure
 
-Project Structure
-  '''Basic-Student-Management-System
-  │
-  ├── database_setup.py      # Creates the SQLite database and table
-  ├── student_manager.py     # StudentManager class with all CRUD methods
-  ├── main.py                # CLI menu to interact with the user
-  └── README.md              # Project description'''
 
-How It Works
+How It Works:
   1. Database Setup (database_setup.py)
      
-    -Creates a SQLite database file named students.db
-    -Creates a students table if it doesn’t exist
-    -Columns: id (auto-increment), name, age, grade, email
+    -> Creates a SQLite database file named students.db
+    -> Creates a students table if it doesn’t exist
+    -> Columns: id (auto-increment), name, age, grade, email
   
   2. StudentManager Class (student_manager.py)
   
   Encapsulates all student operations:
-   -add_student()
-   -view_students()
-   -search_student()
-   -update_student()
-   -delete_student()
+   -> add_student()
+   -> view_students()
+   -> search_student()
+   -> update_student()
+   -> delete_student()
   
   Uses sqlite3 to connect to the database
   
   Each method opens the database connection, executes SQL, commits changes, and closes the connection
   
   3. CLI Menu (main.py)
-   -Displays a menu for the user to choose actions (1-6)
-   -Calls the corresponding method from StudentManager based on user input
-   -Loops continuously until the user selects Exit
+   -> Displays a menu for the user to choose actions (1-6)
+   -> Calls the corresponding method from StudentManager based on user input
+   -> Loops continuously until the user selects Exit
 
 
 How to Run:
