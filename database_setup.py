@@ -21,3 +21,5 @@ def create_db():
     conn.close() # closing the open database which we opened in line 9
     
     print('Database creation complete')
+    
+create_db() # calling the function to create the database . 
